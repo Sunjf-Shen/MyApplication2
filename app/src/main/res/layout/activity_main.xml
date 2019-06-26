@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/login_bg">
+
+    <TextView
+        android:layout_marginTop="@dimen/dp_131"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_width="@dimen/dp_160"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_100"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:text="作战指挥平台"/>
+
+    <EditText
+        android:id="@+id/usernameEdit"
+        android:textColorHint="#FFFFFF"
+        android:theme="@style/MyEditText"
+        android:textSize="@dimen/sp_16"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_80"
+        android:layout_width="@dimen/dp_300"
+        android:layout_height="wrap_content"
+        android:hint="用户名："
+        android:textColor="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/passwordEdit"
+        android:textColorHint="#FFFFFF"
+        android:theme="@style/MyEditText"
+        android:textSize="@dimen/sp_16"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_width="@dimen/dp_300"
+        android:layout_height="wrap_content"
+        android:hint="密码："
+        android:textColor="#FFFFFF"/>
+    
+    <Button
+        android:id="@+id/login_Btn"
+        android:layout_marginTop="@dimen/dp_41"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/login_btn_n"
+        android:text="登录"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/sp_16"
+        android:layout_width="@dimen/dp_244"
+        android:layout_height="@dimen/dp_41" />
+
+</LinearLayout>
